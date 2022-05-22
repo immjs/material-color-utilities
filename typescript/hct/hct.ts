@@ -31,10 +31,10 @@
  * and a difference of 50 guarantees a contrast ratio >= 4.5.
  */
 
-import * as utils from '../utils/color_utils';
+import * as utils from '../utils/color_utils.js';
 
-import {Cam16} from './cam16';
-import {CamSolver} from './cam_solver';
+import {Cam16} from './cam16.js';
+import {CamSolver} from './cam_solver.js';
 
 
 /**

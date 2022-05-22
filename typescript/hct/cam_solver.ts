@@ -15,11 +15,11 @@
  * limitations under the License.
  */
 
-import * as colorUtils from '../utils/color_utils';
-import * as mathUtils from '../utils/math_utils';
+import * as colorUtils from '../utils/color_utils.js';
+import * as mathUtils from '../utils/math_utils.js';
 
-import {Cam16} from './cam16';
-import {ViewingConditions} from './viewing_conditions';
+import {Cam16} from './cam16.js';
+import {ViewingConditions} from './viewing_conditions.js';
 
 /**
  * A class that solves the HCT equation.
